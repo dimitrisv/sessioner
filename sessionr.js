@@ -64,9 +64,7 @@ var Hello = React.createClass({
       <div>
         <div className="btn-container">
           <a href="#" onClick={this.generateCombo} className="new-combo-btn btn">New Combo</a>
-        </div>
-        <div className="btn-container">
-          <a href="#" className="trick-list-customize-btn btn">Customize</a>
+          <a href="#" onClick={this.customizeClicked} className="customize-btn btn">Customize</a>
           <a href="#" onClick={this.clearAll} className="clear-all-btn btn">Clear All</a>
         </div>
         <div className="combos">

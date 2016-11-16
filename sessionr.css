@@ -22,10 +22,13 @@
   padding: 10px 15px;
   text-decoration: none;
   display: inline-block;
+  color: #fff;
+  background: #bdc3c7;
+  max-width: 30%;
 }
 
 .btn:hover {
-  opacity: 0.9;
+  background: #7f8c8d;
 }
 
 .btn-container {
@@ -34,14 +37,19 @@
 
 .new-combo-btn {
   color: #fff;
-  background: #deb617;
-  float: left;
+  background: #2ecc71;
 }
 
-.clear-all-btn {
-  color: #fff;
-  background: #bdc3c7;
-  float: right;
+.new-combo-btn:hover {
+  background: #27ae60;
+}
+
+.customize-btn {
+  background: #f1c40f;
+}
+
+.customize-btn:hover {
+  background: #f39c12;
 }
 
 #main {

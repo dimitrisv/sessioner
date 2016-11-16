@@ -1,0 +1,57 @@
+.trick-list {
+  border: 1px solid #aa0000;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.combo {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.combos {
+  margin-bottom: 20px;
+  clear: both;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-container {
+  margin-bottom: 20px;
+}
+
+.new-combo-btn {
+  color: #fff;
+  background: #deb617;
+  float: left;
+}
+
+.clear-all-btn {
+  color: #fff;
+  background: #bdc3c7;
+  float: right;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+}
+
+div {
+  max-width: 320px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
